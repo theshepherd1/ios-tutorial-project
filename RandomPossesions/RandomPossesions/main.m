@@ -7,11 +7,31 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BNRItem.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        NSMutableArray *items = [[NSMutableArray alloc] init];
+        
+        [items addObject:@"one"];
+        [items addObject:@"two"];
+        [items addObject:@"three"];
+        
+        [items insertObject:@"zero" atIndex:0];
+        
+        for (NSString *item in items) {
+            NSLog(@"%@", item);
+        }
+        
+        BNRItem *p = [[BNRItem alloc] init];
+        
+        [p setItemName:@"Guitar"];
+        [p setSerialNumber:@"A432SDKL32L"];
+        [p setValueInDollar:90];
+        
+        
+        NSLog(@"%@,%@,%@,%d", [p itemName], [p serialNumber], [p dateCreated], [p valueInDollar]);
+        
     }
     return 0;
 }

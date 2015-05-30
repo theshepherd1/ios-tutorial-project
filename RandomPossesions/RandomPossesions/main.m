@@ -17,6 +17,7 @@ int main(int argc, const char * argv[]) {
         [items addObject:@"two"];
         [items addObject:@"three"];
         [items addObject:@"four"];
+        [items addObject:@"five"];
         
         [items insertObject:@"zero" atIndex:0];
         

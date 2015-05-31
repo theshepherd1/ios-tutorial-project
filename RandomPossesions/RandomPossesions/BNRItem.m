@@ -10,6 +10,28 @@
 
 @implementation BNRItem
 
++ (id)randomItem;
+{
+    NSArray *adjectiveList = [[NSArray alloc] initWithObjects:@"pretty",
+                              @"fluffy", @"smelly", nil];
+    NSArray *nounList = [[NSArray alloc] initWithObjects:@"phone",
+                         @"dish", @"floor", nil];
+    int adjectiveIndex = rand() % [adjectiveList count];
+    int nounIndex = rand() % [nounList count];
+    
+    int randomValue = rand() % 100;
+    
+    BNRItem *item = [[self alloc] initWithItemName:[[adjectiveList objectAtIndex:adjectiveIndex] stringByAppendingString:[nounList objectAtIndex:nounIndex]]
+                                         serialNumber:[NSString stringWithFormat:@"%c%c%c%c%c", 'A'+rand()%26,
+                                                       '0'+rand()%10,
+                                                       '0'+rand()%10,
+                                                       'A'+rand()%26,
+                                                       '0'+rand()%10]
+                                        valueInDollar:randomValue];
+    
+    return item;
+}
+
 - (id)initWithItemName: (NSString *)name serialNumber: (NSString *)number valueInDollar: (int)value;
 {
     [self setItemName:name];

@@ -28,6 +28,9 @@ int main(int argc, const char * argv[]) {
         BNRItem *p = [[BNRItem alloc] initWithItemName:@"Guitar" serialNumber:@"A2D92K3" valueInDollar:33];
 
         NSLog(@"%@", [p description]);
+        
+        for(int i = 0; i<10; i++)
+        NSLog(@"%@", [[BNRItem randomItem] description]);
     }
     return 0;
 }

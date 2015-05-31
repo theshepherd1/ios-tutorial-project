@@ -25,15 +25,9 @@ int main(int argc, const char * argv[]) {
             NSLog(@"%@", item);
         }
         
-        BNRItem *p = [[BNRItem alloc] init];
-        
-        [p setItemName:@"Guitar"];
-        [p setSerialNumber:@"A432SDKL32L"];
-        [p setValueInDollar:90];
-        
-        
-        NSLog(@"%@,%@,%@,%d", [p itemName], [p serialNumber], [p dateCreated], [p valueInDollar]);
-        
+        BNRItem *p = [[BNRItem alloc] initWithItemName:@"Guitar" serialNumber:@"A2D92K3" valueInDollar:33];
+
+        NSLog(@"%@", [p description]);
     }
     return 0;
 }

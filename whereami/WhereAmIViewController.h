@@ -7,4 +7,6 @@
     CLLocationManager *locationManager;
 }
 
+@property (weak, nonatomic) IBOutlet UILabel *currentLocationLabel;
+@property (weak, nonatomic) NSString *location;
 @end

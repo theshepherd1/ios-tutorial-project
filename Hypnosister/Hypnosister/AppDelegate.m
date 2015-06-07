@@ -1,12 +1,13 @@
 //
 //  AppDelegate.m
-//  WhereAmI
+//  Hypnosister
 //
 //  Created by Tony Mu on 6/3/15.
-//  Copyright (c) 2015 Tony Mu. All rights reserved.
+//  Copyright (c) 2015 The Shepherd. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "BNRHypnosisterView.h"
 
 @interface AppDelegate ()
 
@@ -16,8 +17,18 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    
+    
+    CGRect firstFrame = CGRectMake(0, 100, 0, 150);
+    BNRHypnosisterView *firstView = [[BNRHypnosisterView alloc] initWithFrame:firstFrame];
+    firstView.backgroundColor = [UIColor redColor];
+    [self.window addSubview:firstView];
+    
+    self.window.backgroundColor = [UIColor blueColor];
+    [self.window makeKeyAndVisible];
     return YES;
+
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

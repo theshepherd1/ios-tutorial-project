@@ -1,9 +1,9 @@
 //
 //  main.m
-//  WhereAmI
+//  Ratings
 //
-//  Created by Tony Mu on 6/3/15.
-//  Copyright (c) 2015 Tony Mu. All rights reserved.
+//  Created by Tony Mu on 6/7/15.
+//  Copyright (c) 2015 The Shepherd. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

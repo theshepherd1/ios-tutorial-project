@@ -1,19 +1,19 @@
 //
-//  WhereAmITests.m
-//  WhereAmITests
+//  RatingsTests.m
+//  RatingsTests
 //
-//  Created by Tony Mu on 6/3/15.
-//  Copyright (c) 2015 Tony Mu. All rights reserved.
+//  Created by Tony Mu on 6/7/15.
+//  Copyright (c) 2015 The Shepherd. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface WhereAmITests : XCTestCase
+@interface RatingsTests : XCTestCase
 
 @end
 
-@implementation WhereAmITests
+@implementation RatingsTests
 
 - (void)setUp {
     [super setUp];

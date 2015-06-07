@@ -1,9 +1,9 @@
 //
 //  AppDelegate.m
-//  WhereAmI
+//  MoneyTracker
 //
 //  Created by Tony Mu on 6/3/15.
-//  Copyright (c) 2015 Tony Mu. All rights reserved.
+//  Copyright (c) 2015 The Shepherd. All rights reserved.
 //
 
 #import "AppDelegate.h"

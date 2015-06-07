@@ -1,19 +1,19 @@
 //
-//  WhereAmITests.m
-//  WhereAmITests
+//  MoneyTrackerTests.m
+//  MoneyTrackerTests
 //
 //  Created by Tony Mu on 6/3/15.
-//  Copyright (c) 2015 Tony Mu. All rights reserved.
+//  Copyright (c) 2015 The Shepherd. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface WhereAmITests : XCTestCase
+@interface MoneyTrackerTests : XCTestCase
 
 @end
 
-@implementation WhereAmITests
+@implementation MoneyTrackerTests
 
 - (void)setUp {
     [super setUp];

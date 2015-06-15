@@ -16,6 +16,8 @@ int main(int argc, const char * argv[]) {
         [items addObject:@"one"];
         [items addObject:@"two"];
         [items addObject:@"three"];
+        [items addObject:@"four"];
+        [items addObject:@"five"];
         
         [items insertObject:@"zero" atIndex:0];
         
@@ -23,15 +25,12 @@ int main(int argc, const char * argv[]) {
             NSLog(@"%@", item);
         }
         
-        BNRItem *p = [[BNRItem alloc] init];
+        BNRItem *p = [[BNRItem alloc] initWithItemName:@"Guitar" serialNumber:@"A2D92K3" valueInDollar:33];
+
+        NSLog(@"%@", [p description]);
         
-        [p setItemName:@"Guitar"];
-        [p setSerialNumber:@"A432SDKL32L"];
-        [p setValueInDollar:90];
-        
-        
-        NSLog(@"%@,%@,%@,%d", [p itemName], [p serialNumber], [p dateCreated], [p valueInDollar]);
-        
+        for(int i = 0; i<10; i++)
+        NSLog(@"%@", [[BNRItem randomItem] description]);
     }
     return 0;
 }

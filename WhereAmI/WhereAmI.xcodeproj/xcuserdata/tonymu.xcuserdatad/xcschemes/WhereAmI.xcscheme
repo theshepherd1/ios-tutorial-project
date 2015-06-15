@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "02C5E8BE1B1FE8A800DD1E14"
-               BuildableName = "WhereAmI.app"
-               BlueprintName = "WhereAmI"
-               ReferencedContainer = "container:WhereAmI.xcodeproj">
+               BlueprintIdentifier = "02B503F01B1BC5CB00EBA6A4"
+               BuildableName = "whereami.app"
+               BlueprintName = "whereami"
+               ReferencedContainer = "container:whereami.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "02C5E8D71B1FE8A900DD1E14"
-               BuildableName = "WhereAmITests.xctest"
-               BlueprintName = "WhereAmITests"
-               ReferencedContainer = "container:WhereAmI.xcodeproj">
+               BlueprintIdentifier = "02B504091B1BC5CB00EBA6A4"
+               BuildableName = "whereamiTests.xctest"
+               BlueprintName = "whereamiTests"
+               ReferencedContainer = "container:whereami.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "02C5E8D71B1FE8A900DD1E14"
-               BuildableName = "WhereAmITests.xctest"
-               BlueprintName = "WhereAmITests"
-               ReferencedContainer = "container:WhereAmI.xcodeproj">
+               BlueprintIdentifier = "02B504091B1BC5CB00EBA6A4"
+               BuildableName = "whereamiTests.xctest"
+               BlueprintName = "whereamiTests"
+               ReferencedContainer = "container:whereami.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "02C5E8BE1B1FE8A800DD1E14"
-            BuildableName = "WhereAmI.app"
-            BlueprintName = "WhereAmI"
-            ReferencedContainer = "container:WhereAmI.xcodeproj">
+            BlueprintIdentifier = "02B503F01B1BC5CB00EBA6A4"
+            BuildableName = "whereami.app"
+            BlueprintName = "whereami"
+            ReferencedContainer = "container:whereami.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,10 +76,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "02C5E8BE1B1FE8A800DD1E14"
-            BuildableName = "WhereAmI.app"
-            BlueprintName = "WhereAmI"
-            ReferencedContainer = "container:WhereAmI.xcodeproj">
+            BlueprintIdentifier = "02B503F01B1BC5CB00EBA6A4"
+            BuildableName = "whereami.app"
+            BlueprintName = "whereami"
+            ReferencedContainer = "container:whereami.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,10 +95,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "02C5E8BE1B1FE8A800DD1E14"
-            BuildableName = "WhereAmI.app"
-            BlueprintName = "WhereAmI"
-            ReferencedContainer = "container:WhereAmI.xcodeproj">
+            BlueprintIdentifier = "02B503F01B1BC5CB00EBA6A4"
+            BuildableName = "whereami.app"
+            BlueprintName = "whereami"
+            ReferencedContainer = "container:whereami.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>whereami.xcscheme</key>
+		<key>RandomPossesions.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>02B503F01B1BC5CB00EBA6A4</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>02B504091B1BC5CB00EBA6A4</key>
+		<key>028C6E641B192E59004E78D5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

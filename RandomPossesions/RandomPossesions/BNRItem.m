@@ -10,9 +10,51 @@
 
 @implementation BNRItem
 
++ (id)randomItem;
+{
+    NSArray *adjectiveList = [[NSArray alloc] initWithObjects:@"pretty",
+                              @"fluffy", @"smelly", nil];
+    NSArray *nounList = [[NSArray alloc] initWithObjects:@"phone",
+                         @"dish", @"floor", nil];
+    int adjectiveIndex = rand() % [adjectiveList count];
+    int nounIndex = rand() % [nounList count];
+    
+    int randomValue = rand() % 100;
+    
+    BNRItem *item = [[self alloc] initWithItemName:[[adjectiveList objectAtIndex:adjectiveIndex] stringByAppendingString:[nounList objectAtIndex:nounIndex]]
+                                         serialNumber:[NSString stringWithFormat:@"%c%c%c%c%c", 'A'+rand()%26,
+                                                       '0'+rand()%10,
+                                                       '0'+rand()%10,
+                                                       'A'+rand()%26,
+                                                       '0'+rand()%10]
+                                        valueInDollar:randomValue];
+    
+    return item;
+}
+
+- (id)initWithItemName: (NSString *)name serialNumber: (NSString *)number valueInDollar: (int)value;
+{
+    [self setItemName:name];
+    [self setSerialNumber:serialNumber];
+    [self setValueInDollar:value];
+    dateCreated = [[NSDate alloc] init];
+    
+    return self;
+}
+
+- (NSString *)description;
+{
+    NSString *descriptionString =
+        [[NSString alloc] initWithFormat:@"%@, (%@): Worth $%d, recorded on %@",
+         itemName, serialNumber, valueInDollar, dateCreated];
+    
+    return descriptionString;
+}
+
+
 - (void)setItemName: (NSString *)name;
 {
-    self.itemName = name;
+    itemName = name;
 }
 - (NSString *)itemName;
 {
@@ -21,7 +63,7 @@
 
 - (void)setSerialNumber: (NSString *)number;
 {
-    self.serialNumber = number;
+    serialNumber = number;
 }
 - (NSString *)serialNumber;
 {
@@ -30,7 +72,7 @@
 
 - (void)setValueInDollar: (int)value;
 {
-    self.valueInDollar = value;
+    valueInDollar = value;
 }
 - (int)valueInDollar;
 {
@@ -39,6 +81,7 @@
 
 - (NSDate *)dateCreated;
 {
+    
     return dateCreated;
 }
 

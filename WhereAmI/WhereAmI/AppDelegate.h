@@ -1,8 +1,8 @@
 //
 //  AppDelegate.h
-//  WhereAmI
+//  whereami
 //
-//  Created by Tony Mu on 6/3/15.
+//  Created by Tony Mu on 5/31/15.
 //  Copyright (c) 2015 Tony Mu. All rights reserved.
 //
 

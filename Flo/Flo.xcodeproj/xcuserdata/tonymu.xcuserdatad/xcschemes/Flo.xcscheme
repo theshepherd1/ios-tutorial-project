@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "02ABBDC01B2F615C00961A75"
+               BlueprintIdentifier = "0262247F1B2F6AB2007ADD26"
                BuildableName = "Flo.app"
                BlueprintName = "Flo"
                ReferencedContainer = "container:Flo.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "02ABBDD51B2F615C00961A75"
+               BlueprintIdentifier = "026224941B2F6AB2007ADD26"
                BuildableName = "FloTests.xctest"
                BlueprintName = "FloTests"
                ReferencedContainer = "container:Flo.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "02ABBDD51B2F615C00961A75"
+               BlueprintIdentifier = "026224941B2F6AB2007ADD26"
                BuildableName = "FloTests.xctest"
                BlueprintName = "FloTests"
                ReferencedContainer = "container:Flo.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "02ABBDC01B2F615C00961A75"
+            BlueprintIdentifier = "0262247F1B2F6AB2007ADD26"
             BuildableName = "Flo.app"
             BlueprintName = "Flo"
             ReferencedContainer = "container:Flo.xcodeproj">
@@ -76,7 +76,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "02ABBDC01B2F615C00961A75"
+            BlueprintIdentifier = "0262247F1B2F6AB2007ADD26"
             BuildableName = "Flo.app"
             BlueprintName = "Flo"
             ReferencedContainer = "container:Flo.xcodeproj">
@@ -95,7 +95,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "02ABBDC01B2F615C00961A75"
+            BlueprintIdentifier = "0262247F1B2F6AB2007ADD26"
             BuildableName = "Flo.app"
             BlueprintName = "Flo"
             ReferencedContainer = "container:Flo.xcodeproj">

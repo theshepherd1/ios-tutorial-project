@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0230A7801B265F8C006733C6 /* ExtraStuffForScaryBugs in Resources */ = {isa = PBXBuildFile; fileRef = 0230A77F1B265F8C006733C6 /* ExtraStuffForScaryBugs */; };
+		0230A7831B265F9D006733C6 /* RWTRateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0230A7821B265F9D006733C6 /* RWTRateView.m */; };
+		0230A78A1B265FAC006733C6 /* shockedface2_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 0230A7871B265FAC006733C6 /* shockedface2_empty.png */; };
+		0230A78B1B265FAC006733C6 /* shockedface2_full.png in Resources */ = {isa = PBXBuildFile; fileRef = 0230A7881B265FAC006733C6 /* shockedface2_full.png */; };
+		0230A78C1B265FAC006733C6 /* shockedface2_half.png in Resources */ = {isa = PBXBuildFile; fileRef = 0230A7891B265FAC006733C6 /* shockedface2_half.png */; };
+		0230A78E1B26613E006733C6 /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0230A78D1B26613E006733C6 /* logo1.png */; };
 		02FE796A1B2506D600849655 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FE79691B2506D600849655 /* main.m */; };
 		02FE796D1B2506D600849655 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FE796C1B2506D600849655 /* AppDelegate.m */; };
 		02FE79701B2506D600849655 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FE796F1B2506D600849655 /* MasterViewController.m */; };
@@ -31,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0230A77F1B265F8C006733C6 /* ExtraStuffForScaryBugs */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ExtraStuffForScaryBugs; path = ScaryBugs/ExtraStuffForScaryBugs; sourceTree = "<group>"; };
+		0230A7811B265F9D006733C6 /* RWTRateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RWTRateView.h; path = ScaryBugs/ExtraStuffForScaryBugs/RWTRateView.h; sourceTree = "<group>"; };
+		0230A7821B265F9D006733C6 /* RWTRateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RWTRateView.m; path = ScaryBugs/ExtraStuffForScaryBugs/RWTRateView.m; sourceTree = "<group>"; };
+		0230A7871B265FAC006733C6 /* shockedface2_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shockedface2_empty.png; path = ScaryBugs/ExtraStuffForScaryBugs/shockedface2_empty.png; sourceTree = "<group>"; };
+		0230A7881B265FAC006733C6 /* shockedface2_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shockedface2_full.png; path = ScaryBugs/ExtraStuffForScaryBugs/shockedface2_full.png; sourceTree = "<group>"; };
+		0230A7891B265FAC006733C6 /* shockedface2_half.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shockedface2_half.png; path = ScaryBugs/ExtraStuffForScaryBugs/shockedface2_half.png; sourceTree = "<group>"; };
+		0230A78D1B26613E006733C6 /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo1.png; path = ScaryBugs/ExtraStuffForScaryBugs/logo1.png; sourceTree = "<group>"; };
 		02FE79641B2506D600849655 /* ScaryBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScaryBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02FE79681B2506D600849655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02FE79691B2506D600849655 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -71,20 +84,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0230A7751B265D27006733C6 /* New Group4 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "New Group4";
-			sourceTree = "<group>";
-		};
-		0230A7761B265D38006733C6 /* New Group5 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "New Group5";
-			sourceTree = "<group>";
-		};
 		0230A7771B265D3B006733C6 /* New Group */ = {
 			isa = PBXGroup;
 			children = (
@@ -107,26 +106,23 @@
 			name = "New Group2";
 			sourceTree = "<group>";
 		};
-		0230A77A1B265E26006733C6 /* New Group6 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "New Group6";
-			sourceTree = "<group>";
-		};
-		0230A77B1B265E32006733C6 /* New Group7 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "New Group7";
-			sourceTree = "<group>";
-		};
 		0230A77C1B265E36006733C6 /* New Group */ = {
 			isa = PBXGroup;
 			children = (
 				02FE79661B2506D600849655 /* ScaryBug */,
 			);
 			name = "New Group";
+			sourceTree = "<group>";
+		};
+		0230A77E1B265EB7006733C6 /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				0230A78D1B26613E006733C6 /* logo1.png */,
+				0230A7871B265FAC006733C6 /* shockedface2_empty.png */,
+				0230A7881B265FAC006733C6 /* shockedface2_full.png */,
+				0230A7891B265FAC006733C6 /* shockedface2_half.png */,
+			);
+			name = Art;
 			sourceTree = "<group>";
 		};
 		02FE795B1B2506D600849655 = {
@@ -152,14 +148,9 @@
 		02FE79661B2506D600849655 /* ScaryBug */ = {
 			isa = PBXGroup;
 			children = (
-				0230A77B1B265E32006733C6 /* New Group7 */,
-				0230A77A1B265E26006733C6 /* New Group6 */,
-				0230A7761B265D38006733C6 /* New Group5 */,
-				0230A7751B265D27006733C6 /* New Group4 */,
-				02FE79C31B265D1100849655 /* New Group3 */,
-				02FE79C11B265CFE00849655 /* New Group2 */,
-				02FE79BF1B265CE300849655 /* New Group1 */,
-				02FE79BE1B265CD900849655 /* New Group */,
+				0230A77F1B265F8C006733C6 /* ExtraStuffForScaryBugs */,
+				0230A77E1B265EB7006733C6 /* Art */,
+				02FE79BE1B265CD900849655 /* View */,
 				02FE79BC1B2555F100849655 /* ScaryBugs */,
 				02FE79911B2507C200849655 /* Model */,
 				02FE79901B2507A500849655 /* GUI */,
@@ -223,18 +214,13 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
-		02FE79BE1B265CD900849655 /* New Group */ = {
+		02FE79BE1B265CD900849655 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0230A7811B265F9D006733C6 /* RWTRateView.h */,
+				0230A7821B265F9D006733C6 /* RWTRateView.m */,
 			);
-			name = "New Group";
-			sourceTree = "<group>";
-		};
-		02FE79BF1B265CE300849655 /* New Group1 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "New Group1";
+			name = View;
 			sourceTree = "<group>";
 		};
 		02FE79C01B265CED00849655 /* New Group */ = {
@@ -244,25 +230,11 @@
 			name = "New Group";
 			sourceTree = "<group>";
 		};
-		02FE79C11B265CFE00849655 /* New Group2 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "New Group2";
-			sourceTree = "<group>";
-		};
 		02FE79C21B265D0800849655 /* New Group1 */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "New Group1";
-			sourceTree = "<group>";
-		};
-		02FE79C31B265D1100849655 /* New Group3 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "New Group3";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -346,8 +318,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				02FE79BD1B2555F100849655 /* ScaryBugs in Resources */,
+				0230A78A1B265FAC006733C6 /* shockedface2_empty.png in Resources */,
 				02FE79761B2506D600849655 /* Main.storyboard in Resources */,
+				0230A7801B265F8C006733C6 /* ExtraStuffForScaryBugs in Resources */,
+				0230A78E1B26613E006733C6 /* logo1.png in Resources */,
+				0230A78C1B265FAC006733C6 /* shockedface2_half.png in Resources */,
 				02FE797B1B2506D600849655 /* LaunchScreen.xib in Resources */,
+				0230A78B1B265FAC006733C6 /* shockedface2_full.png in Resources */,
 				02FE79781B2506D600849655 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,6 +344,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02FE79941B25080A00849655 /* RWTScaryBugData.m in Sources */,
+				0230A7831B265F9D006733C6 /* RWTRateView.m in Sources */,
 				02FE796D1B2506D600849655 /* AppDelegate.m in Sources */,
 				02FE79971B25099200849655 /* RWTScaryBugDoc.m in Sources */,
 				02FE79701B2506D600849655 /* MasterViewController.m in Sources */,

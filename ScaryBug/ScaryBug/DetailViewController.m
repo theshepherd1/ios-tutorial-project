@@ -7,8 +7,14 @@
 //
 
 #import "DetailViewController.h"
+#import "RWTRateView.h"
 
 @interface DetailViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *titleField;
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property (weak, nonatomic) IBOutlet UIView *rateView;
+
+- (IBAction)changeImageButton:(id)sender;
 
 @end
 
@@ -26,10 +32,7 @@
 }
 
 - (void)configureView {
-    // Update the user interface for the detail item.
-    if (self.detailItem) {
-        self.detailDescriptionLabel.text = [self.detailItem description];
-    }
+    NSArray *images = [NSArray alloc] initWithObjects:, nil
 }
 
 - (void)viewDidLoad {
@@ -43,4 +46,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)changeImageButton:(id)sender {
+    NSLog(@"Tappe on the button");
+}
 @end

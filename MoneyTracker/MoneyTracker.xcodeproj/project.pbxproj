@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		022E62981B29314400EAD43D /* CatagoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 022E62971B29314400EAD43D /* CatagoryViewController.m */; };
+		0230A7941B2689A7006733C6 /* SpendingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0230A7931B2689A7006733C6 /* SpendingViewController.m */; };
 		02C5E92E1B1FFC0C00DD1E14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C5E92D1B1FFC0C00DD1E14 /* main.m */; };
 		02C5E9311B1FFC0C00DD1E14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C5E9301B1FFC0C00DD1E14 /* AppDelegate.m */; };
 		02C5E93A1B1FFC0C00DD1E14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02C5E9381B1FFC0C00DD1E14 /* Main.storyboard */; };
@@ -15,7 +17,6 @@
 		02C5E94B1B1FFC0C00DD1E14 /* MoneyTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C5E94A1B1FFC0C00DD1E14 /* MoneyTrackerTests.m */; };
 		02CF10D81B214EEB00435AAF /* ios7-plus.svg in Resources */ = {isa = PBXBuildFile; fileRef = 02CF10DA1B214EEB00435AAF /* ios7-plus.svg */; };
 		02CF10DC1B21508800435AAF /* ios7-plus-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 02CF10DB1B21508800435AAF /* ios7-plus-icon.png */; };
-		02CF10DF1B21516A00435AAF /* SpendingAmountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CF10DE1B21516A00435AAF /* SpendingAmountViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		022E62961B29314400EAD43D /* CatagoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatagoryViewController.h; sourceTree = "<group>"; };
+		022E62971B29314400EAD43D /* CatagoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatagoryViewController.m; sourceTree = "<group>"; };
+		0230A7921B2689A7006733C6 /* SpendingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpendingViewController.h; sourceTree = "<group>"; };
+		0230A7931B2689A7006733C6 /* SpendingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpendingViewController.m; sourceTree = "<group>"; };
 		02C5E9281B1FFC0C00DD1E14 /* MoneyTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02C5E92C1B1FFC0C00DD1E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02C5E92D1B1FFC0C00DD1E14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,8 +47,6 @@
 		02C5E94A1B1FFC0C00DD1E14 /* MoneyTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoneyTrackerTests.m; sourceTree = "<group>"; };
 		02CF10D91B214EEB00435AAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Base; path = "Base.lproj/ios7-plus.svg"; sourceTree = "<group>"; };
 		02CF10DB1B21508800435AAF /* ios7-plus-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ios7-plus-icon.png"; path = "MoneyTracker/ios7-plus-icon.png"; sourceTree = SOURCE_ROOT; };
-		02CF10DD1B21516A00435AAF /* SpendingAmountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpendingAmountViewController.h; path = MoneyTracker/SpendingAmountViewController.h; sourceTree = SOURCE_ROOT; };
-		02CF10DE1B21516A00435AAF /* SpendingAmountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpendingAmountViewController.m; path = MoneyTracker/SpendingAmountViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,10 +89,12 @@
 			isa = PBXGroup;
 			children = (
 				02C5E92F1B1FFC0C00DD1E14 /* AppDelegate.h */,
-				02CF10DD1B21516A00435AAF /* SpendingAmountViewController.h */,
-				02CF10DE1B21516A00435AAF /* SpendingAmountViewController.m */,
 				02C5E9301B1FFC0C00DD1E14 /* AppDelegate.m */,
 				02C5E9381B1FFC0C00DD1E14 /* Main.storyboard */,
+				0230A7921B2689A7006733C6 /* SpendingViewController.h */,
+				0230A7931B2689A7006733C6 /* SpendingViewController.m */,
+				022E62961B29314400EAD43D /* CatagoryViewController.h */,
+				022E62971B29314400EAD43D /* CatagoryViewController.m */,
 				02C5E93B1B1FFC0C00DD1E14 /* Images.xcassets */,
 				02CF10DB1B21508800435AAF /* ios7-plus-icon.png */,
 				02CF10DA1B214EEB00435AAF /* ios7-plus.svg */,
@@ -227,9 +232,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				022E62981B29314400EAD43D /* CatagoryViewController.m in Sources */,
 				02C5E9311B1FFC0C00DD1E14 /* AppDelegate.m in Sources */,
 				02C5E92E1B1FFC0C00DD1E14 /* main.m in Sources */,
-				02CF10DF1B21516A00435AAF /* SpendingAmountViewController.m in Sources */,
+				0230A7941B2689A7006733C6 /* SpendingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

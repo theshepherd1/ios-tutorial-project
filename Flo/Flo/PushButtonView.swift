@@ -8,7 +8,8 @@
 
 import UIKit
 
-class PushButtonView: UIButton {
+
+@IBDesignable class PushButtonView: UIButton {
 
     /*
     // Only override drawRect: if you perform custom drawing.
@@ -17,11 +18,38 @@ class PushButtonView: UIButton {
         // Drawing code
     }
     */
+    @IBInspectable var isAddButton: Bool = true
+    @IBInspectable var lineFillColor: UIColor = UIColor.whiteColor()
 
     
     override func drawRect(rect: CGRect) {
+        
         var path: UIBezierPath = UIBezierPath(ovalInRect: rect)
-        UIColor.greenColor().setFill()
+        lineFillColor.setFill()
         path.fill()
+        
+        let plusHeight: CGFloat = 3.0
+        let plusWidth: CGFloat = bounds.height * 0.7
+        
+        var plusPath = UIBezierPath()
+        
+        plusPath.lineWidth = plusHeight
+        
+        plusPath.moveToPoint(CGPoint(x: bounds.width/2 - plusWidth/2, y: bounds.height/2))
+        
+        plusPath.addLineToPoint(CGPoint(x: bounds.width/2 + plusWidth/2, y: bounds.height/2))
+        
+        UIColor.whiteColor().setStroke()
+        
+        plusPath.stroke()
+        
+        if isAddButton {
+        
+        plusPath.moveToPoint(CGPoint(x: bounds.height/2, y: bounds.height/2 - plusWidth/2))
+        
+        plusPath.addLineToPoint(CGPoint(x: bounds.height/2, y: bounds.height/2 + plusWidth/2))
+        
+        plusPath.stroke()
+        }
     }
 }

@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>C1317525-7484-479A-88FA-285E49721CE5</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Flo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>8B17616BCABE296F8101DB14A462D24A2120111D</key>
 		<string>https://github.com/theshepherd1/ios-tutorial-project.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Flo/Flo.xcodeproj/project.xcworkspace</string>
+	<string>Flo/Flo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>8B17616BCABE296F8101DB14A462D24A2120111D</key>

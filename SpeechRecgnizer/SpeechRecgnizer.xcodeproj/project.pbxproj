@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02C1A55B1B32696500784192 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C1A55A1B32696500784192 /* main.m */; };
+		02C1A55E1B32696500784192 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C1A55D1B32696500784192 /* AppDelegate.m */; };
+		02C1A5611B32696500784192 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C1A5601B32696500784192 /* ViewController.m */; };
+		02C1A5641B32696500784192 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02C1A5621B32696500784192 /* Main.storyboard */; };
+		02C1A5661B32696500784192 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C1A5651B32696500784192 /* Images.xcassets */; };
+		02C1A5691B32696500784192 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02C1A5671B32696500784192 /* LaunchScreen.xib */; };
+		02C1A5751B32696500784192 /* SpeechRecgnizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C1A5741B32696500784192 /* SpeechRecgnizerTests.m */; };
+		02C1A5831B3269A200784192 /* AcousticModelEnglish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 02C1A57F1B3269A200784192 /* AcousticModelEnglish.bundle */; };
+		02C1A5841B3269A200784192 /* AcousticModelSpanish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 02C1A5801B3269A200784192 /* AcousticModelSpanish.bundle */; };
+		02C1A5851B3269A200784192 /* OpenEars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C1A5811B3269A200784192 /* OpenEars.framework */; };
+		02C1A5861B3269A200784192 /* Slt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C1A5821B3269A200784192 /* Slt.framework */; };
+		02C1A5891B327CE200784192 /* Buttons.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C1A5881B327CE200784192 /* Buttons.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02C1A56F1B32696500784192 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02C1A54D1B32696500784192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02C1A5541B32696500784192;
+			remoteInfo = SpeechRecgnizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02C1A5551B32696500784192 /* SpeechRecgnizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechRecgnizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02C1A5591B32696500784192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02C1A55A1B32696500784192 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02C1A55C1B32696500784192 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		02C1A55D1B32696500784192 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		02C1A55F1B32696500784192 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		02C1A5601B32696500784192 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		02C1A5631B32696500784192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02C1A5651B32696500784192 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		02C1A5681B32696500784192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		02C1A56E1B32696500784192 /* SpeechRecgnizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeechRecgnizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02C1A5731B32696500784192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02C1A5741B32696500784192 /* SpeechRecgnizerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeechRecgnizerTests.m; sourceTree = "<group>"; };
+		02C1A57F1B3269A200784192 /* AcousticModelEnglish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelEnglish.bundle; sourceTree = "<group>"; };
+		02C1A5801B3269A200784192 /* AcousticModelSpanish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelSpanish.bundle; sourceTree = "<group>"; };
+		02C1A5811B3269A200784192 /* OpenEars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenEars.framework; sourceTree = "<group>"; };
+		02C1A5821B3269A200784192 /* Slt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Slt.framework; sourceTree = "<group>"; };
+		02C1A5871B327CE200784192 /* Buttons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Buttons.h; sourceTree = "<group>"; };
+		02C1A5881B327CE200784192 /* Buttons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Buttons.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02C1A5521B32696500784192 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C1A5861B3269A200784192 /* Slt.framework in Frameworks */,
+				02C1A5851B3269A200784192 /* OpenEars.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02C1A56B1B32696500784192 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02C1A54C1B32696500784192 = {
+			isa = PBXGroup;
+			children = (
+				02C1A5571B32696500784192 /* SpeechRecgnizer */,
+				02C1A5711B32696500784192 /* SpeechRecgnizerTests */,
+				02C1A5561B32696500784192 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02C1A5561B32696500784192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02C1A5551B32696500784192 /* SpeechRecgnizer.app */,
+				02C1A56E1B32696500784192 /* SpeechRecgnizerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02C1A5571B32696500784192 /* SpeechRecgnizer */ = {
+			isa = PBXGroup;
+			children = (
+				02C1A55C1B32696500784192 /* AppDelegate.h */,
+				02C1A55D1B32696500784192 /* AppDelegate.m */,
+				02C1A55F1B32696500784192 /* ViewController.h */,
+				02C1A5601B32696500784192 /* ViewController.m */,
+				02C1A5621B32696500784192 /* Main.storyboard */,
+				02C1A5871B327CE200784192 /* Buttons.h */,
+				02C1A5881B327CE200784192 /* Buttons.m */,
+				02C1A5651B32696500784192 /* Images.xcassets */,
+				02C1A5671B32696500784192 /* LaunchScreen.xib */,
+				02C1A57E1B3269A200784192 /* Framework */,
+				02C1A5581B32696500784192 /* Supporting Files */,
+			);
+			path = SpeechRecgnizer;
+			sourceTree = "<group>";
+		};
+		02C1A5581B32696500784192 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02C1A5591B32696500784192 /* Info.plist */,
+				02C1A55A1B32696500784192 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02C1A5711B32696500784192 /* SpeechRecgnizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				02C1A5741B32696500784192 /* SpeechRecgnizerTests.m */,
+				02C1A5721B32696500784192 /* Supporting Files */,
+			);
+			path = SpeechRecgnizerTests;
+			sourceTree = "<group>";
+		};
+		02C1A5721B32696500784192 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02C1A5731B32696500784192 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02C1A57E1B3269A200784192 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				02C1A57F1B3269A200784192 /* AcousticModelEnglish.bundle */,
+				02C1A5801B3269A200784192 /* AcousticModelSpanish.bundle */,
+				02C1A5811B3269A200784192 /* OpenEars.framework */,
+				02C1A5821B3269A200784192 /* Slt.framework */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02C1A5541B32696500784192 /* SpeechRecgnizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02C1A5781B32696500784192 /* Build configuration list for PBXNativeTarget "SpeechRecgnizer" */;
+			buildPhases = (
+				02C1A5511B32696500784192 /* Sources */,
+				02C1A5521B32696500784192 /* Frameworks */,
+				02C1A5531B32696500784192 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeechRecgnizer;
+			productName = SpeechRecgnizer;
+			productReference = 02C1A5551B32696500784192 /* SpeechRecgnizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02C1A56D1B32696500784192 /* SpeechRecgnizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02C1A57B1B32696500784192 /* Build configuration list for PBXNativeTarget "SpeechRecgnizerTests" */;
+			buildPhases = (
+				02C1A56A1B32696500784192 /* Sources */,
+				02C1A56B1B32696500784192 /* Frameworks */,
+				02C1A56C1B32696500784192 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02C1A5701B32696500784192 /* PBXTargetDependency */,
+			);
+			name = SpeechRecgnizerTests;
+			productName = SpeechRecgnizerTests;
+			productReference = 02C1A56E1B32696500784192 /* SpeechRecgnizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02C1A54D1B32696500784192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "The Shepherd";
+				TargetAttributes = {
+					02C1A5541B32696500784192 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					02C1A56D1B32696500784192 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 02C1A5541B32696500784192;
+					};
+				};
+			};
+			buildConfigurationList = 02C1A5501B32696500784192 /* Build configuration list for PBXProject "SpeechRecgnizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02C1A54C1B32696500784192;
+			productRefGroup = 02C1A5561B32696500784192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02C1A5541B32696500784192 /* SpeechRecgnizer */,
+				02C1A56D1B32696500784192 /* SpeechRecgnizerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02C1A5531B32696500784192 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C1A5641B32696500784192 /* Main.storyboard in Resources */,
+				02C1A5841B3269A200784192 /* AcousticModelSpanish.bundle in Resources */,
+				02C1A5831B3269A200784192 /* AcousticModelEnglish.bundle in Resources */,
+				02C1A5691B32696500784192 /* LaunchScreen.xib in Resources */,
+				02C1A5661B32696500784192 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02C1A56C1B32696500784192 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02C1A5511B32696500784192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C1A5611B32696500784192 /* ViewController.m in Sources */,
+				02C1A55E1B32696500784192 /* AppDelegate.m in Sources */,
+				02C1A55B1B32696500784192 /* main.m in Sources */,
+				02C1A5891B327CE200784192 /* Buttons.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02C1A56A1B32696500784192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C1A5751B32696500784192 /* SpeechRecgnizerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02C1A5701B32696500784192 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02C1A5541B32696500784192 /* SpeechRecgnizer */;
+			targetProxy = 02C1A56F1B32696500784192 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02C1A5621B32696500784192 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02C1A5631B32696500784192 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02C1A5671B32696500784192 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02C1A5681B32696500784192 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02C1A5761B32696500784192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		02C1A5771B32696500784192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02C1A5791B32696500784192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SpeechRecgnizer/Framework",
+				);
+				INFOPLIST_FILE = SpeechRecgnizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		02C1A57A1B32696500784192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SpeechRecgnizer/Framework",
+				);
+				INFOPLIST_FILE = SpeechRecgnizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		02C1A57C1B32696500784192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpeechRecgnizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeechRecgnizer.app/SpeechRecgnizer";
+			};
+			name = Debug;
+		};
+		02C1A57D1B32696500784192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpeechRecgnizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeechRecgnizer.app/SpeechRecgnizer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02C1A5501B32696500784192 /* Build configuration list for PBXProject "SpeechRecgnizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C1A5761B32696500784192 /* Debug */,
+				02C1A5771B32696500784192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02C1A5781B32696500784192 /* Build configuration list for PBXNativeTarget "SpeechRecgnizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C1A5791B32696500784192 /* Debug */,
+				02C1A57A1B32696500784192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		02C1A57B1B32696500784192 /* Build configuration list for PBXNativeTarget "SpeechRecgnizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C1A57C1B32696500784192 /* Debug */,
+				02C1A57D1B32696500784192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02C1A54D1B32696500784192 /* Project object */;
+}

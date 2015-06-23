@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E3332CAE-EC3F-4BBC-AD42-1BE26FFAB603</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SpeechRecgnizer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8B17616BCABE296F8101DB14A462D24A2120111D</key>
+		<string>https://github.com/theshepherd1/ios-tutorial-project.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SpeechRecgnizer/SpeechRecgnizer.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8B17616BCABE296F8101DB14A462D24A2120111D</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/theshepherd1/ios-tutorial-project.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8B17616BCABE296F8101DB14A462D24A2120111D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8B17616BCABE296F8101DB14A462D24A2120111D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Practice</string>
+		</dict>
+	</array>
+</dict>
+</plist>

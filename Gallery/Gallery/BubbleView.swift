@@ -20,22 +20,10 @@ import UIKit
         
     }
     
-//    override init(frame: CGRect) {
-//        var path = UIBezierPath(ovalInRect: frame)
-//        color.setFill()
-//        path.fill()
-//    }
-//
-//    required init(coder aDecoder: NSCoder) {
-//        fatalError("init(coder:) has not been implemented")
-//    }
-    
     override func drawRect(rect: CGRect) {
         var path = UIBezierPath(ovalInRect: rect)
         color.setFill()
         path.fill()
-        
-
     }
 }
 

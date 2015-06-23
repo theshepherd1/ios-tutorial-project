@@ -15,9 +15,12 @@ class ViewController: UIViewController {
      var firstView: BubbleView?
      var myView: BubbleView!
     
+    var dest: CGPoint!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         initColors()
+        dest = CGPointMake(50.0, 50.0)
 
     }
     
@@ -26,34 +29,23 @@ class ViewController: UIViewController {
 //        animVibrate(firstView)
         
         
-        var frame = CGRectMake(0.0, 0.0, 54.0, 70.0)
-        var dest = CGPointMake(50.0, 50.0)
-        var firstView = UIButton(frame: frame)
-        
+        var frame = CGRectMake(-50.0, -50.0, 54.0, 70.0)
+        var firstView = BubbleView(frame: frame)
         self.view.addSubview(firstView)
         
         frame.origin = dest
-        firstView.backgroundColor = UIColor.blackColor()
         UIView.animateWithDuration(1.0, animations: {
             firstView.frame = frame
 
         })
         
-        
-        
-//        UIView.beginAnimations(nil, context: nil)
-//        UIView.setAnimationDuration(1.0)
-//        UIView.setAnimationCurve(UIViewAnimationCurve.EaseOut)
-//        
-//        
-//        
-//        UIView.commitAnimations()
-//        
-        println("animated")
+        UIView.animateWithDuration(3.0, delay: 2.0, options: UIViewAnimationOptions.CurveLinear, animations: {
+            firstView.frame.size = CGSizeMake(20.0, 20.0)
+            firstView.setNeedsDisplay()
 
-//        animSlide(firstView, destination: dest)
+            }, completion: nil)
         
-        
+        dest = CGPointMake(dest.x+20, dest.y+20)
     }
 
     

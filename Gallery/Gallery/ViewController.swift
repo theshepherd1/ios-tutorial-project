@@ -12,32 +12,43 @@ class ViewController: UIViewController {
     
     var purple, yellow, green, pink, blue: UIColor!
     
-//    @IBOutlet weak var firstView: BubbleView = BubbleView(frame:frame)
+     var firstView: BubbleView?
+     var myView: BubbleView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         initColors()
-        
+
     }
     
     @IBAction func addNewBubble(sender: UIButton) {
+
 //        animVibrate(firstView)
         
         
         var frame = CGRectMake(0.0, 0.0, 54.0, 70.0)
         var dest = CGPointMake(50.0, 50.0)
         var firstView = UIButton(frame: frame)
+        
+        self.view.addSubview(firstView)
+        
+        frame.origin = dest
         firstView.backgroundColor = UIColor.blackColor()
-        
-        UIView.beginAnimations(nil, context: nil)
-        UIView.setAnimationDuration(1.0)
-        UIView.setAnimationCurve(UIViewAnimationCurve.EaseOut)
-        
-        firstView.frame.origin = dest
+        UIView.animateWithDuration(1.0, animations: {
+            firstView.frame = frame
+
+        })
         
         
-        UIView.commitAnimations()
         
+//        UIView.beginAnimations(nil, context: nil)
+//        UIView.setAnimationDuration(1.0)
+//        UIView.setAnimationCurve(UIViewAnimationCurve.EaseOut)
+//        
+//        
+//        
+//        UIView.commitAnimations()
+//        
         println("animated")
 
 //        animSlide(firstView, destination: dest)
@@ -47,38 +58,29 @@ class ViewController: UIViewController {
 
     
     func animSlide(itemView: UIView, destination: CGPoint) {
-        UIView.beginAnimations("animSlide", context: nil)
-        UIView.setAnimationDuration(1.0)
-        UIView.setAnimationCurve(UIViewAnimationCurve.EaseOut)
         
-        itemView.frame.origin = destination
+            }
+    
+    func animVibrate(itemView: UIView) {
+        var dist: CGFloat = 5.0
+        var rect = firstView!.frame
+        var newRect = CGRectMake(rect.origin.x+30, rect.origin.y, rect.size.width, rect.size.height)
+        var view = BubbleView(frame: newRect)
+
+
         
+        UIView.beginAnimations("vibrate", context: nil)
+
+        UIView.setAnimationRepeatAutoreverses(true)
+        UIView.setAnimationRepeatCount(4.0)
+        UIView.setAnimationDuration(5.0)
+        UIView.setAnimationCurve(UIViewAnimationCurve.EaseIn)
         
+        self.view.addSubview(view)
+
         UIView.commitAnimations()
-        
-        println("animated")
+
     }
-//    
-//    func animVibrate(itemView: UIView) {
-//        var dist: CGFloat = 5.0
-////        var rect = firstView.frame
-////        var newRect = CGRectMake(rect.origin.x+30, rect.origin.y, rect.size.width, rect.size.height)
-////        var view = BubbleView(frame: newRect)
-//
-//
-//        
-//        UIView.beginAnimations("vibrate", context: nil)
-//
-////        UIView.setAnimationRepeatAutoreverses(true)
-////        UIView.setAnimationRepeatCount(4.0)
-//        UIView.setAnimationDuration(5.0)
-//        UIView.setAnimationCurve(UIViewAnimationCurve.EaseIn)
-//        
-//        self.view.addSubview(view)
-//
-//        UIView.commitAnimations()
-//
-//    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

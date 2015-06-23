@@ -31,11 +31,11 @@ import UIKit
 //    }
     
     override func drawRect(rect: CGRect) {
-        
-        
         var path = UIBezierPath(ovalInRect: rect)
         color.setFill()
         path.fill()
+        
+
     }
 }
 
